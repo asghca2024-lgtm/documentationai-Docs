@@ -1,0 +1,220 @@
+---
+title: Changelog
+description: A running record of updates to the documentation, course offerings, and learner resources. Review recent changes to stay current with the latest exam preparation content and site improvements.
+---
+## Overview
+
+This changelog gives you a clear view of recent updates across documentation, course listings, learner resources, and support content. It is a starter kit template, so you can adapt the entries to match your own release process and publishing cadence.
+
+Use this page to track what changed, why it changed, and what learners should review first. For a healthcare training brand like ASGHCA, this is especially useful when you add new exam pathways, revise guidance, or improve access to consultation and support resources.
+
+<Callout kind="info">
+
+This page is a starter template. Replace the sample entries with your actual release history, internal notes, and publishing standards.
+
+</Callout>
+
+## Recent Updates
+
+<Update label="2026-05-15" description="v1.4.0" tags={["feature", "improvement"]}>
+
+## New Features
+
+- Added a new release entry structure for course and documentation updates.
+- Expanded the changelog format so you can group learner-facing and site-facing changes together.
+- Introduced a clearer pattern for publishing updates to exam preparation content.
+
+## Improvements
+
+- Improved page organization so readers can scan the most important changes faster.
+- Clarified how to record new course offerings, content revisions, and support updates.
+- Refined the language to better support healthcare education teams that publish regularly.
+
+## Bug Fixes
+
+- Fixed unclear section ordering in earlier draft examples.
+- Removed inconsistent phrasing that made update notes harder to review.
+
+</Update>
+
+<Update label="2026-04-22" description="v1.3.0" tags={["feature", "bugfix"]}>
+
+## New Features
+
+- Added example entries for new course additions and learner resource updates.
+- Included a practical format for documenting site improvements and support changes.
+- Expanded the sample release notes so you can reuse the structure for multiple departments.
+
+## Improvements
+
+- Streamlined the writing style to keep updates short, specific, and easy to maintain.
+- Improved consistency across headings, bullet lists, and version labels.
+- Made the template more adaptable for education, consultation, and service pages.
+
+## Bug Fixes
+
+- Corrected duplicate wording in the changelog guidance.
+- Fixed uneven spacing in the example content blocks.
+
+</Update>
+
+<Update label="2026-03-10" description="v1.2.0" tags={["improvement"]}>
+
+## Improvements
+
+- Updated the starter kit copy to sound more generic and reusable.
+- Improved guidance for tracking documentation changes without overloading the page.
+- Clarified that this page should be customized rather than treated as a final source of truth.
+
+## Bug Fixes
+
+- Resolved formatting issues in the sample release notes.
+- Fixed inconsistent terminology around learner resources and course offerings.
+
+</Update>
+
+## Release Workflow
+
+To keep your changelog useful, publish updates in a consistent order and keep each entry focused. A simple workflow helps you avoid clutter and makes it easier for learners to understand what changed.
+
+<Steps>
+  <Step title="Collect updates" icon="download">
+
+    Gather release notes from documentation, course content, support, and site changes before you publish.
+
+  </Step>
+  <Step title="Review impact" icon="settings">
+
+    Decide whether each change affects learners, instructors, or internal editors, then write the note accordingly.
+
+  </Step>
+  <Step title="Publish the entry" icon="check-circle">
+
+    Add the update with a version label, date, and concise bullet list so readers can scan it quickly.
+
+  </Step>
+</Steps>
+
+## Publication Formats
+
+You can manage changelog content in different ways depending on your team size and publishing process. Use the format that best fits your workflow.
+
+<Tabs>
+  <Tab title="Markdown" icon="book-open">
+
+    Use markdown when you want a simple, file-based changelog that is easy to edit and review in version control.
+
+    ````markdown
+    ---
+    title: Changelog
+    description: A running record of updates to the documentation, course offerings, and learner resources.
+    ---
+
+    ## Recent Updates
+
+    <Update label="2026-05-15" description="v1.4.0" tags={["feature", "improvement"]}>
+
+    ## New Features
+
+    - Added a new release entry structure.
+    - Expanded the changelog format.
+
+    </Update>
+    ````
+
+  </Tab>
+  <Tab title="Content team" icon="users">
+
+    Use a shared editorial process when multiple contributors update the same documentation space. This keeps course edits, support changes, and learner resources aligned.
+
+    ````text
+    1. Draft the change note.
+    2. Confirm the version label.
+    3. Review the learner impact.
+    4. Publish the update.
+    ````
+
+  </Tab>
+  <Tab title="Automation" icon="zap">
+
+    Use automation when you publish frequent updates and want a repeatable release pattern. This works well for scheduled course launches and documentation refreshes.
+
+    ````json
+    {
+      "release": "v1.4.0",
+      "date": "2026-05-15",
+      "sections": ["new-features", "improvements", "bug-fixes"]
+    }
+    ````
+
+  </Tab>
+</Tabs>
+
+## Example Release Note Structure
+
+The following example shows a clean, reusable pattern for writing release notes. You can adapt it for new course launches, revised guidance, or support improvements.
+
+<CodeGroup tabs="Markdown,JSON" show-lines={true}>
+  ```markdown
+  ## New Features
+
+  - Added a new exam preparation course page.
+  - Expanded learner support information.
+  - Improved navigation for course discovery.
+  ```
+
+  ```json
+  {
+    "newFeatures": [
+      "Added a new exam preparation course page",
+      "Expanded learner support information",
+      "Improved navigation for course discovery"
+    ]
+  }
+  ```
+</CodeGroup>
+
+## What to Track
+
+Keep your changelog focused on changes that matter to readers. In a training and support environment, that usually includes new courses, revised exam guidance, updated resource links, and important site or support improvements.
+
+| Change Type | What to Record | Why It Matters |
+|-------------|----------------|----------------|
+| Course additions | New exam preparation offerings or learning tracks | Helps learners find new options quickly |
+| Content revisions | Updated lessons, guidance, or resource copy | Keeps information accurate and current |
+| Resource improvements | Better downloads, links, or support references | Reduces friction for learners |
+| Site changes | Navigation, layout, or accessibility updates | Improves the reading and browsing experience |
+
+## Best Practices
+
+- Write entries in past tense and keep them concise.
+- Use a version label for every published update.
+- Group similar changes together so readers can scan quickly.
+- Put the most important learner-facing changes first.
+- Keep the page self-contained so it works well as a reference without outside context.
+
+<Callout kind="tip">
+
+If you publish updates often, add a short summary line at the top of each entry and keep the detailed bullets under the relevant section headers.
+
+</Callout>
+
+## Optional Review Checklist
+
+<Expandable title="How should you write a good changelog entry?" default-open="true">
+
+Use short, specific bullets that describe what changed, who benefits, and whether the change affects content, support, or site behavior.
+
+</Expandable>
+
+<Expandable title="When should you publish a new version?" default-open="false">
+
+Publish a new version when you add a course, revise learner-facing guidance, improve support content, or make a meaningful site update.
+
+</Expandable>
+
+<Expandable title="What should you avoid?" default-open="false">
+
+Avoid vague notes, repeated wording, and overly technical language that does not help learners understand the update.
+
+</Expandable>
